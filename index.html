@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BUILD TO-DO LIST</h1>
+    <input type="addtask" id="adding" placeholder="Add some task" name="addtask">
+    <button onclick="addtask()">ADD</button><br><br>
+    <input type="text" id="tasks" placeholder="I will practice HTML for 1 hour">
+    <button onclick="remove()" id="btn">DELETE</button><br><br>
+    <input type="text" id="tasks" placeholder="I will give time 2 hours for css">
+    <button onclick="remove()" id="btn">DELETE</button><br><br>
+    <input type="text" id="tasks" placeholder="Then I will have dinner">
+    <button onclick="remove()" id="btn">DELETE</button>
+    <ul id="addnew">
+
+
+    </ul>
+    <script>
+        function addtask(){
+            var add=document.getElementById("adding");
+            adding.innerText="New Task";
+            var list=document.createElement("li");
+            add.list.value;
+        }
+        function remove(){
+           var task=document.getElementById("tasks");
+           var removebtn=document.getElementById("btn");
+           task.remove();
+           removebtn.remove();
+          
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+//     var adding=document.getElementById("addtask");
+    //     // var list=document.createElement("li");
+    // function add(){
+    //     var newtask=document.getElementById("addtask");
+    //     newtask.innerText="New Task";
+    // }
+    // function remove(){
+    //     var newtask=document.getElementById("addtask");
+    //     newtask.remove();
+    // } -->
